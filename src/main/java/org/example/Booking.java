@@ -28,10 +28,13 @@ public class Booking {
         return totalPrice;
     }
 
+    public void setTotalPrice(double totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
     public boolean isDepositPaid() {
         return depositPaid;
     }
-
 }
 
 
