@@ -20,18 +20,18 @@ public class Booking {
         return firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
     public double getTotalPrice() {
         return totalPrice;
     }
 
-
-
-    //main
-    public static void main(String[] args) {
-        Booking booking = new Booking("Gaurav", "Chaudhari", 500.00, true);
-        System.out.println(booking.getFirstName());
-        System.out.println(booking.getTotalPrice());
+    public boolean isDepositPaid() {
+        return depositPaid;
     }
+
 }
 
 
